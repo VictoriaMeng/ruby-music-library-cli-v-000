@@ -24,6 +24,8 @@ class MusicLibraryController
       break if options.include?(input)
     end
     case input
+    when 'list songs'
+      list_songs
     end
   end
 
