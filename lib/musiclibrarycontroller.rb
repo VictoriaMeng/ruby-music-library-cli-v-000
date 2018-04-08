@@ -23,6 +23,8 @@ class MusicLibraryController
       input = gets.strip
       break if options.include?(input)
     end
+    case input
+    end
   end
 
   def list_songs
