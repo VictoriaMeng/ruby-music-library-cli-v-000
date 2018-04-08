@@ -5,4 +5,6 @@ require_relative '../config/environment'
 choice = MusicLibraryController.new.call
 
 case choice
+when 'list songs'
+  choice.list_songs
 end
