@@ -21,7 +21,7 @@ class MusicLibraryController
     loop do
       puts "What would you like to do?"
       input = gets.strip
-      break if input == "exit"
+      break if options.include?(input)
     end
   end
 
