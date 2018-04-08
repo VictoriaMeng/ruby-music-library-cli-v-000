@@ -1,8 +1,8 @@
 #!/usr/bin/env ruby
 
 require_relative '../config/environment'
-require 'pry'
 
 choice = MusicLibraryController.new.call
 
-binding.pry
+case choice
+end
