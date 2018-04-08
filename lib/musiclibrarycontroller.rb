@@ -5,6 +5,7 @@ class MusicLibraryController
 
   def initialize(path = './db/mp3s')
     @songs = MusicImporter.new(path).import
+    @options = ["list songs", "list artists", "list genres", "list artist", "list genre", "play song", "exit"]
   end
 
   def call
